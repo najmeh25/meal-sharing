@@ -5,6 +5,7 @@ import express from "express";
 import db from "./database_client.js"; 
 
 const app = express();
+//app.use(express.urlencoded({extended:true}));
 const PORT = process.env.PORT || 3000;
 
 
