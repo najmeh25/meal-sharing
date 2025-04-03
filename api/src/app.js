@@ -1,4 +1,5 @@
 import express from "express";
+import cors from 'cors';
 import mealsWeek3Router from "./routers/meals_week3.js";
 //import mealsRouter from "./routers/meals.js";
 import reservationsRouter from "./routers/reservations.js";
@@ -6,8 +7,10 @@ import reviewsRouter from "./routers/reviews.js";
 
 import knex from "./database.js";
 import "dotenv/config";
+
 const app = express();
-const PORT = process.env.PORT || 3000;
+app.use(cors());
+const PORT = process.env.PORT || 4000;
 
 
 app.use(express.json());

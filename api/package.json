@@ -9,10 +9,10 @@
     "npm": "^10.5.0"
   },
   "scripts": {
-    "dev": "nodemon app.js",
-    "start": "node app.js",
     "format": "npx prettier . --write",
-    "check": "npx eslint . --fix"
+    "check": "npx eslint . --fix",
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
