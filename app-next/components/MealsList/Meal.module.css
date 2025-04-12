@@ -1,0 +1,46 @@
+.mealCard {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mealImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .mealTitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .mealDescription {
+    font-size: 1rem;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .mealPrice {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #4CAF50;
+  }
+  
+  .reserveButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reserveButton:hover {
+    background-color: #45a049;
+  }
+  

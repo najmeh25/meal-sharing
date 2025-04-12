@@ -8,7 +8,7 @@ import MealsList from '../MealsList/MealsList';
 const HomePage = () => {
   return (
     <div >
-      <h1 style={{color:"yellow",textAlign:"center"}}>Welcome to Meal Sharing</h1>
+      <h1 style={{color:"green",textAlign:"center"}}>Welcome to Meal Sharing</h1>
   <MealsList />
     </div>
   );

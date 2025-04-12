@@ -1,9 +1,10 @@
 "use client";
-
 import { useEffect, useState } from "react";
 import styles from "./MealsList.module.css";
+import Meal from "./Meal";
+
 function MealsList() {
-  const [data, setData] = useState(null); 
+  const [data, setData] = useState(null);
 
   const fetchMeals = async () => {
     try {
@@ -12,25 +13,22 @@ function MealsList() {
         throw new Error("Failed to fetch meals");
       }
       const result = await response.json();
-      setData(result); 
+      setData(result);
     } catch (error) {
       console.error("Error fetching meals:", error);
     }
   };
 
   useEffect(() => {
-    fetchMeals(); 
+    fetchMeals();
   }, []);
 
   return (
     <div className={styles.mealsContainer}>
-      
       {data ? (
         data.map((meal) => (
           <div key={meal.id} className={styles.mealCard}>
-            <h4 className={styles.mealTitle}>{meal.title}</h4>
-            <p className={styles.mealDescription}>{meal.description}</p>
-            <p className={styles.mealPrice}>Price: ${meal.price}</p>
+            <Meal meal={meal} />
           </div>
         ))
       ) : (
