@@ -2,9 +2,11 @@
 import { useEffect, useState } from "react";
 import styles from "./MealsList.module.css";
 import Meal from "./Meal";
+import Link from "next/link";
 
-function MealsList() {
+function MealsList({ limit }) {
   const [data, setData] = useState(null);
+  
 
   const fetchMeals = async () => {
     try {
@@ -13,7 +15,12 @@ function MealsList() {
         throw new Error("Failed to fetch meals");
       }
       const result = await response.json();
-      setData(result);
+
+      if (limit) {
+        setData(result.slice(0, limit));
+      } else {
+        setData(result);
+      }
     } catch (error) {
       console.error("Error fetching meals:", error);
     }
@@ -21,7 +28,7 @@ function MealsList() {
 
   useEffect(() => {
     fetchMeals();
-  }, []);
+  }, [limit]);
 
   return (
     <div className={styles.mealsContainer}>
@@ -29,6 +36,9 @@ function MealsList() {
         data.map((meal) => (
           <div key={meal.id} className={styles.mealCard}>
             <Meal meal={meal} />
+            <Link href={`/meals/${meal.id}`}>
+              <button className={styles.detailsButton}>View Details</button>
+            </Link>
           </div>
         ))
       ) : (
