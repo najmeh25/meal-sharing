@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import styles from "./ReviewForm.module.css";
 const ReviewForm = ({ mealId, userId }) => {
   const [stars, setStars] = useState(5);
   const [description, setDescription] = useState("");
@@ -55,7 +55,7 @@ const ReviewForm = ({ mealId, userId }) => {
 
   return (
     <form onSubmit={handleSubmit} style={{ marginTop: "2rem" }}>
-      <h3>Leave a Review</h3>
+      <h3 style={{ color: "blue" }}>Leave a Review</h3>
 
       <label>
         Stars (1-5):{" "}
@@ -83,11 +83,30 @@ const ReviewForm = ({ mealId, userId }) => {
       </label>
 
       <br />
+      <br />
 
-      <button type="submit">Submit Review</button>
+      <button
+        type="submit"
+        style={{
+          marginTop: "40px",
+          marginLeft: "20px",
+          backgroundColor: "#1976d2",
+          color: "white",
+          border: "none",
+          borderRadius: "4px",
+          textAlign: "center",
+          padding: "10px 20px",
+          cursor: "pointer",
+          textDecoration: "none",
+        }}
+      >
+        Submit Review
+      </button>
 
       {error && <p style={{ color: "red" }}>{error}</p>}
-      {success && <p style={{ color: "green" }}>Review submitted successfully!</p>}
+      {success && (
+        <p style={{ color: "green" }}>Review submitted successfully!</p>
+      )}
     </form>
   );
 };
