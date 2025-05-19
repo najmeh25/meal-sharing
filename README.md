@@ -7,7 +7,7 @@
 
 ## Description
 
-Meal Sharing is a full-stack web application built using **TypeScript**, **Express.js**, **React**, and **PostgreSQL**.
+Meal Sharing is a full-stack web application built using **node.js**, **next.js**, **React**, and **Mysql**.
 
 This project was developed as an individual assignment for the **Hack Your Future Denmark** curriculum.
 
@@ -32,13 +32,13 @@ This project was developed as an individual assignment for the **Hack Your Futur
   - React
   - Next.js
   - CSS Modules
-  - JavaScript / TypeScript
+  - JavaScript 
 
 - **Backend**:
   - Node.js
   - Express.js
   - Knex.js
-  - PostgreSQL
+  - Mysql
 
 ---
 
