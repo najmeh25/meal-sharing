@@ -95,7 +95,7 @@ Managing project tasks and debugging complex bugs
 
 ## Screenshots
 
-![Meals List](https://github.com/najmeh25/meal-sharing/raw/main/screenMeals.png)  
+![Meals List](https://github.com/najmeh25/meal-sharing/blob/main/screenMeals.png)  
 *Meals list displayed from the database*
 
 ![Review Section](https://github.com/najmeh25/meal-sharing/raw/main/screenReviews.png)  
