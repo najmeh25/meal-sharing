@@ -85,12 +85,12 @@ Using Railway and Vercel for deployment,
 Managing project tasks and debugging complex bugs.
 
 Screenshots:
-!![Meals List](https://github.com/najmeh25/meal-sharing/raw/main/screenMeals.png)
-
+![Meals List](https://github.com/najmeh25/meal-sharing/raw/main/screenMeals.png)  
 *Meals list displayed from the database*
 
-![Review Section](./screenReviews.png)  
+![Review Section](https://github.com/najmeh25/meal-sharing/raw/main/screenReviews.png)  
 *Reviews submitted by users*
+
 
 Meals list displayed from the database
 Users can submit reviews and star ratings
