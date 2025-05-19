@@ -44,7 +44,7 @@ This project was developed as an individual assignment for the **Hack Your Futur
 
 ## Backend
 
-The backend is a RESTful API built with **Node.js**, **Express**, and **PostgreSQL**, using **Knex.js** as a query builder.
+The backend is a RESTful API built with **Node.js**, **Express**, and **Mysql**, using **Knex.js** as a query builder.
 
 ### 🔗 Links
 
@@ -54,11 +54,11 @@ The backend is a RESTful API built with **Node.js**, **Express**, and **PostgreS
 ### 🚀 Run Backend Locally
 
 ```bash
-# Clone the repo
+# Clone the repo:
 git clone https://github.com/najmeh25/meal-sharing.git
-cd meal-sharing-backend
+cd meal-sharing-backend.
 
-# Install dependencies
+# Install dependencies:
 npm install
 
 # Create a `.env` file with the following:
@@ -76,20 +76,13 @@ npm run dev
 Once started, the backend will be running at:
 📍 http://localhost:4000
 
-What I Learned
-During this project, I improved my skills in:
-
-React component design (Star Rating, Modal, Forms)
-
-API integration and HTTP requests
-
-PostgreSQL data modeling
-
-Express routing and REST API development
-
-Using Railway and Vercel for deployment
-
-Managing project tasks and debugging complex bugs
+What I Learned,During this project, I improved my skills in:
+React component design (Star Rating, Modal, Forms),
+API integration and HTTP requests,
+PostgreSQL data modeling,
+Express routing and REST API development,
+Using Railway and Vercel for deployment,
+Managing project tasks and debugging complex bugs.
 
 Screenshots:
 ![Meals List](./screenMeals.png)  
