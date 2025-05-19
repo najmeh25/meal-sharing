@@ -7,7 +7,7 @@
 
 ## Description
 
-Meal Sharing is a full-stack web application built using **node.js**, **next.js**, **React**, and **Mysql**.
+Meal Sharing is a full-stack web application built using **Node.js**, **Next.js**, **React**, and **MySQL**.
 
 This project was developed as an individual assignment for the **Hack Your Future Denmark** curriculum.
 
@@ -38,25 +38,25 @@ This project was developed as an individual assignment for the **Hack Your Futur
   - Node.js
   - Express.js
   - Knex.js
-  - Mysql
+  - MySQL
 
 ---
 
 ## Backend
 
-The backend is a RESTful API built with **Node.js**, **Express**, and **Mysql**, using **Knex.js** as a query builder.
+The backend is a RESTful API built with **Node.js**, **Express**, and **MySQL**, using **Knex.js** as a query builder.
 
 ### 🔗 Links
 
 - 🔁 **API Endpoint (Production)**: [https://meal-sharing-backend.up.railway.app](https://meal-sharing-backend.up.railway.app)
-- 💻 **Repository**: [https://github.com/najmeh25/meal-sharing-backend](https://github.com/najmeh25/meal-sharing-backend)
+- 💻 **Repository**: [https://github.com/najmeh25/meal-sharing-backend](https://github.com/najmeh25/meal-sharing)
 
 ### 🚀 Run Backend Locally
 
 ```bash
 # Clone the repo:
 git clone https://github.com/najmeh25/meal-sharing.git
-cd meal-sharing-backend.
+cd meal-sharing-backend
 
 # Install dependencies:
 npm install
@@ -76,34 +76,36 @@ npm run dev
 Once started, the backend will be running at:
 📍 http://localhost:4000
 
-What I Learned,During this project, I improved my skills in:
-React component design (Star Rating, Modal, Forms),
-API integration and HTTP requests,
-PostgreSQL data modeling,
-Express routing and REST API development,
-Using Railway and Vercel for deployment,
-Managing project tasks and debugging complex bugs.
+What I Learned
+During this project, I improved my skills in:
 
-Screenshots:
-![Meals List](https://github.com/najmeh25/meal-sharing/raw/main/screenMeals.png)  
-*Meals list displayed from the database*
+React component design (Star Rating, Modal, Forms)
 
-![Review Section](https://github.com/najmeh25/meal-sharing/raw/main/screenReviews.png)  
-*Reviews submitted by users*
+API integration and HTTP requests
 
+MySQL data modeling
+
+Express routing and REST API development
+
+Using Railway and Vercel for deployment
+
+Managing project tasks and debugging complex bugs
+
+Screenshots
 
 Meals list displayed from the database
-Users can submit reviews and star ratings
 
-Deployment:
+
+Reviews submitted by users
+
+Deployment
 Frontend: Vercel
+
 Backend: Railway
 
 Author
-👩 seyedeh najmeh Ghasemi
+👩 Seyedeh Najmeh Ghasemi
 📧 Email: seyedehnajmeh25@gmail.com
 
-
 License
-This project is for educational purposes only as part of Hack Your Future curriculum.
-
+This project is for educational purposes only as part of the Hack Your Future curriculum.
