@@ -91,12 +91,16 @@ Using Railway and Vercel for deployment
 
 Managing project tasks and debugging complex bugs
 
-Screenshots
+# Meal Sharing App
 
-Meals list displayed from the database
+## Screenshots
 
+![Meals List](https://github.com/najmeh25/meal-sharing/raw/main/screenMeals.png)  
+*Meals list displayed from the database*
 
-Reviews submitted by users
+![Review Section](https://github.com/najmeh25/meal-sharing/raw/main/screenReviews.png)  
+*Reviews submitted by users*
+
 
 Deployment
 Frontend: Vercel
