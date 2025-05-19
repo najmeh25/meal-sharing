@@ -85,7 +85,8 @@ Using Railway and Vercel for deployment,
 Managing project tasks and debugging complex bugs.
 
 Screenshots:
-![Meals List](./screenMeals.png)  
+!![Meals List](https://github.com/najmeh25/meal-sharing/raw/main/screenMeals.png)
+
 *Meals list displayed from the database*
 
 ![Review Section](./screenReviews.png)  
