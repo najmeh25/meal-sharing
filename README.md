@@ -50,6 +50,8 @@ The backend is a RESTful API built with **Node.js**, **Express**, and **MySQL**,
 
 - 🔁 **API Endpoint (Production)**: [https://meal-sharing-backend.up.railway.app](https://meal-sharing-backend.up.railway.app)
 - 💻 **Repository**: [https://github.com/najmeh25/meal-sharing-backend](https://github.com/najmeh25/meal-sharing)
+- 🎥 [Watch Demo Video](https://screenrec.com/share/MTCLymeWZG)
+
 
 ### 🚀 Run Backend Locally
 
