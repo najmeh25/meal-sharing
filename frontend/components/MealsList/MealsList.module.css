@@ -94,5 +94,5 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center; /* یا flex-start برای چپ‌چین */
+  justify-content: center;
 }

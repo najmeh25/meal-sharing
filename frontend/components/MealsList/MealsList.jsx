@@ -36,15 +36,15 @@ function MealsList({ limit }) {
     }
   };
 
-  // useEffect با setInterval برای بروزرسانی لیست غذاها هر 5 ثانیه
+  // useEffect با setInterval 
   useEffect(() => {
-    fetchMeals(); // بار اول
+    fetchMeals(); 
 
     const intervalId = setInterval(() => {
       fetchMeals();
     }, 5000);
 
-    return () => clearInterval(intervalId); // پاک‌سازی interval در unmount
+    return () => clearInterval(intervalId); 
   }, [limit, query, sortKey, sortDir]);
 
   return (
